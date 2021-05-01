@@ -23,3 +23,7 @@ master_password|string| - |
 multi_az|bool|Defines if the RDS will be set as multi-az|
 private_subnet_ids|list(string)|The private subnets to deploy the RDS into|
 vpc_id|string|The VPC to deploy the RDS into|
+
+## Future additions
+- Deploy different storage types
+- Set the number of replicas (also allow no replica)
